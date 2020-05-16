@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAuxZHFI0RDkaIqO97IXwQTwAAAAACAAAAAAAQZgAAAAEAACAAAABhCTWgMmvyy0jc7e9bPsp6EaepCLyg55AjQSH9DZ1LvgAAAAAOgAAAAAIAACAAAADsbAE8Gb0vJ0Kkc4vCDa3tgVxUJnKxt4g+QhlWuSkdR4AAAACs6dEai/y6nVovYeB3DRZJ3Oieoyfe0YoNzusiVCMZOmNS6oOwTUpzYUFdRP11fkm3j732fglITybifBdYf8V6XbsIwxpBJfsB1SDnNAB0MhtBDj0dWK/KPSz/ebdN0qwsPRvhZLk0uFCk/JBDLnKbLuLsZFLzhX2nPB/Z0tzgxkAAAACl4QD0jJLFOwg0XkZEqsu1N6oonV0wrNm79crOG9CUQMLWhfuHoQWBF2kF7NL8UPRleV+Yua2t0XHuyd3vQFz7</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <EfMigrations Include="NoNameHotel.Data.ApplicationDbContext">
+      <Value>Data Source=tcp:nonamehotel20170407052218dbserver.database.windows.net,1433;Initial Catalog=NoNameHotel20170407052218_db;User Id=cvetelinadecheva@nonamehotel20170407052218dbserver;Password=9508199090Aa</Value>
+    </EfMigrations>
+  </ItemGroup>
+</Project>

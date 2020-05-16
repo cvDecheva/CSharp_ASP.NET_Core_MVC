@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAuxZHFI0RDkaIqO97IXwQTwAAAAACAAAAAAAQZgAAAAEAACAAAABad+nfWA+uymAuj/V0e+bXFeEnPZM8FC1ZfKA66x2BAwAAAAAOgAAAAAIAACAAAADGCjk0AqMTEf4a0/B1W8Ze3JhT6yzs6l4mAYXe2pUKK4AAAADKk3mc4FEyBQRGzWkEoE9fqObnZDgTu4c8IPYkUp8ktQBARrKRRsL/enHhX+jgqAma2l8CfITTquC3GgFWCgQ3cMYfmKW1Yz301FwsRsVYFB/nO/+xYA+3CtqYmvLxRXFLs08piTrq2SztNp7rQRKETeoM45OrZMbKo+Tu0iPfOUAAAAAU6PMXjUwtc8hwmyfpYbPA1zDJXT+BHnabKyN6g7dtsvMMkFnO3jQihtSVoXGu8f+9qDwFDxSlxH7Z7IT25GbB</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Data Source=tcp:aspnet-NoNameHotel-c66f65e9-9697-4d0e-bebc-807ba739dd76,1433;Initial Catalog=nnh_db;User Id=cvetelinadecheva@nonamehotel20170407052218dbserver;Password=9508199090Aa</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EfMigrations Include="NoNameHotel.Data.ApplicationDbContext">
+      <Value>Data Source=tcp:aspnet-NoNameHotel-c66f65e9-9697-4d0e-bebc-807ba739dd76,1433;Initial Catalog=nnh_db;User Id=cvetelinadecheva@nonamehotel20170407052218dbserver;Password=9508199090Aa</Value>
+    </EfMigrations>
+  </ItemGroup>
+</Project>
